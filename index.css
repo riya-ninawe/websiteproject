@@ -73,6 +73,11 @@ img{
 .main-section{
     min-width: 100%;
     background-color: rgb(71, 51, 51);
+    padding: 200px;
+    background-image: url(collection3.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-section .section-cont{
     display: flex;
@@ -99,12 +104,12 @@ img{
     margin: 24px 0 40px;
 }
 .main-section .main-details .btn{
-    padding: 10px 26px;
+    padding: 10px 30px;
     color: 	#2b1c0d;
 }
 .btn-order-now{
     background-color: rgb(80, 65, 42);
-    padding: 10px 26px;
+    padding: 10px 30px;
     border: 2px solid rgb(43, 31, 16);
     border-radius:25px ;
     color: 	#2b1c0d;
@@ -142,7 +147,7 @@ img{
 
 }
 /*responsive home page*/
-@media (max-width: 375px) {
+ /*@media (max-width: 375px) {
     /* Fix header */
     header {
         position: fixed;
@@ -272,7 +277,7 @@ img{
         align-items: center;
         text-align: center;
     }
-}
+
 /* Remove horizontal scroll */
 body, html {
     overflow-x: hidden; /* Prevents horizontal scrolling */
@@ -300,7 +305,8 @@ body, html {
 .nav-link {
     min-width: 100px;
     flex-shrink: 0; /* Stops them from getting too small */
-}
+} 
+
 
 
 
@@ -317,8 +323,7 @@ body, html {
 
 .body-about-us{
     width: 100%;
-    height: 100%;
-    padding-top: 0px;
+    height: 95%;
     background-color: #633f24;
     display: flex;
     justify-content: space-evenly;
@@ -897,7 +902,7 @@ body {
 .contact-info {
     flex: 2;
     background: #3a2d23;
-    padding: 150px;
+    padding: 100px;
     text-align: center;
     align-items: center;
     border-radius: 10px;
